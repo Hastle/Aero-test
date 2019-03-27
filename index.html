@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<title>Aero test</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-	
+	<section id="main">
+		<div class="form-wrap">
+			<form>
+				<div class="form-group">
+					<label for="">Ваше ФИО</label>
+					<input type="text" class="form-control" placeholder="" required>
+				</div>
+				<div class="form-group">
+					<label for="">Email</label>
+					<input type="email" class="form-control" placeholder="" required>
+				</div>
+				<div class="form-group">
+					<label for="">Телефон</label>
+					<input type="phone" class="form-control" placeholder="" required>
+				</div>
+				<div class="form-group">
+					<label for="">Дата</label>
+					<input type="date" class="form-control" value="2011-08-19" required>
+				</div>
+				<div class="form-group">
+					<label for="">Ваш комментарий</label>
+					 <textarea class="form-control" id="" rows="6"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Отправить</button>
+			</form>
+		</div>
+	</section>
 </body>
 </html>
